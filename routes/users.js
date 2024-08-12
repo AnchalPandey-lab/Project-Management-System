@@ -91,7 +91,6 @@ router.get('/userCounts', async (req, res) => {
 
     res.json({
       totalUsers,
-      superAdmin,
       seniorEngineers,
       juniorEngineers,
       otherUsers
